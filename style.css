@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+.firstContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 250px 0px 200px;
+  background-color: aliceblue;
+
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+}
+::placeholder {
+  color: white;
+}
+
+#message {
+  margin: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid;
+  color: aliceblue;
+  background-color: transparent;
+  margin: 10px;
+  width: 50%;
+
+  align-self: center;
+}
+.phoneNumberSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.emailSection {
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 10px;
+}
+.locationSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.PhoneNumberContainer {
+  display: flex;
+  margin: 10px;
+  margin-top: 50px;
+}
+.EmailContainer {
+  display: flex;
+  margin: 10px;
+}
+.LocationContainer {
+  display: flex;
+  margin: 10px;
+}
